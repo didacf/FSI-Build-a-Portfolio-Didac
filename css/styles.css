@@ -1,0 +1,14 @@
+header {
+    height: 400px;
+    width: 100%;    
+    background-image: url("../images/coding-portfolio.jpeg");
+}
+title {
+    color: red;
+    font-family: Arial Narrow Bold;
+}
+
+H1 {
+    color: rgb(0, 195, 255);
+    font-family: "Arial Narrow Bold";  
+}
