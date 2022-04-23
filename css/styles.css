@@ -1,20 +1,25 @@
-head {
-    height: 400px;
-    width: 100%;    
-    background-image: url("../images/coding-portfolio.jpeg");
-}
+
+body {
+        background: url("../images/coding-portfolio.jpeg");
+        background-attachment: fixed;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0vw;
+ }
 /* Changing My Portfolio H1 */
 #h1-pf {
     color: rgb(0, 204, 255);
     background-color: brown;
-    font-family: "Cambria";  
+    font-family: "Cambria";
+    text-align: center; 
 }
 /* Name styling */
 
 #h1-name {
     border-radius:25px;
-    background-color: green;
-    color:chocolate;
+    background-color: black;
+    color:white;
     text-align: center;
 }
 
@@ -25,6 +30,7 @@ head {
     color: pink;
     font-size: 24px;
     border: 4px darkturquoise;
+    text-align: center; 
 }
 #p-lore {
     background-color: orange;
@@ -32,29 +38,49 @@ head {
     font-size: 24px;
     border: 20px darkturquoise;
     font-family: '-apple-system';
+    text-align: center; 
 }
 
 #p-phone {
-    background-color: purple;
-    color: darkred;
-    font-size: 15px;
-    font-family: cursive;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    text-align: center; 
+}
+#p-email {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    text-align: center; 
 }
 /* h3 styles */
 
 #h3-ab {
-    background-color: rgba(25, 51, 10, 0.189);
-    color: gray;
+    background-color: black;
+    color: white;
     font-size: 30px;
     font-family: 'Lucida Sans';
     border-style: dashed;
+    text-align: center; 
 }
 #h3-pro {
     background-color:blue;
     color: turquoise;
-    font-size: 10;
+    font-size: 20;
     font-family: Impact;
     border-style: dotted;
+    text-align: center; 
+}
+
+h3 {
+    background-color: black;
+    color: white;
+    font-size: 20;
+    font-family: Impact;
+    border-style: dotted;
+    text-align: center; 
 }
 
 
@@ -63,7 +89,40 @@ head {
 h2 {
     background-color: purple;
     color: red;
+    font-size: 20px;
+    font-family: Arial;
+    border-style: double;
+    text-align: center; 
+}
+
+/* Picture mod */
+
+.didacf {
+    display: block;
+    margin: 0 auto;
+    border-radius: 20vw;
+    width: 22vw;
+    padding: 1;
+  }
+  /* h2 styles */
+  
+  h2 {
+      background-color: purple;
+      color: red;
+      font-size: 19px;
+      font-family: Arial;
+      border-style: double;
+      text-align: center; 
+  }
+
+  
+/* projects*/
+
+.projects {
+    background-color: black;
+    color: white;
     font-size: 19px;
     font-family: Arial;
     border-style: double;
+    text-align: center; 
 }
