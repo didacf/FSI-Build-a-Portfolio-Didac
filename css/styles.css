@@ -1,9 +1,69 @@
-header {
+head {
     height: 400px;
     width: 100%;    
     background-image: url("../images/coding-portfolio.jpeg");
 }
-H1 {
-    color: blue;
-    font-family: "Arial Narrow Bold";  
+/* Changing My Portfolio H1 */
+#h1-pf {
+    color: rgb(0, 204, 255);
+    background-color: brown;
+    font-family: "Cambria";  
+}
+/* Name styling */
+
+#h1-name {
+    border-radius:25px;
+    background-color: green;
+    color:chocolate;
+    text-align: center;
+}
+
+/* paragraph styles */
+
+#p-moto {
+    background-color: yellow;
+    color: pink;
+    font-size: 24px;
+    border: 4px darkturquoise;
+}
+#p-lore {
+    background-color: orange;
+    color: cyan;
+    font-size: 24px;
+    border: 20px darkturquoise;
+    font-family: '-apple-system';
+}
+
+#p-phone {
+    background-color: purple;
+    color: darkred;
+    font-size: 15px;
+    font-family: cursive;
+}
+/* h3 styles */
+
+#h3-ab {
+    background-color: rgba(25, 51, 10, 0.189);
+    color: gray;
+    font-size: 30px;
+    font-family: 'Lucida Sans';
+    border-style: dashed;
+}
+#h3-pro {
+    background-color:blue;
+    color: turquoise;
+    font-size: 10;
+    font-family: Impact;
+    border-style: dotted;
+}
+
+
+/* h2 styles */
+
+h2 {
+    background-color: purple;
+    color: red;
+    font-size: 19px;
+    font-family: Arial;
+    border-style: double;
 }
